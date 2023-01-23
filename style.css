@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    src: url(bootstrap-5.2.3-dist/font/Font_Bassic/IBMPlexSansThai/WOFF2/IBMPlexSansThai-Medium.woff2);
+}
+
+body ,html {
+    padding: 0;
+    margin: 0;
+    font-family: "IBMPlexSansThai-Medium.woff2";
+    background-color: gray;
+}
+
+/*          Box          */
+
+.container {
+    width: 95%;
+    padding: 0;
+}
+
+.box {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 50px white;
+}
+
+/*          Banner           */
+
+#Banner {
+    max-width: 100%;
+    height: auto;
+}
+
+/*           menu             */
+
+.top-menu {
+    padding: 5px;
+    color: black;
+    background-color: rgb(229, 140, 252);
+    width: 95%;
+    margin: auto;
+    display: block;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 10px;
+}
+
+.text-menu {
+    text-decoration: none;
+    color: black;
+}
+
+.img-menu {
+    box-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+}
+
+.a-img {
+    width: 80%;
+}
+
+.btn-outline-info {
+    color: rgb(229, 140, 252);
+    border: 1px solid rgb(229, 140, 252);
+}
+
+.btn-outline-info:hover {
+    background-color: rgb(229, 140, 252);
+    border: 1px solid rgb(229, 140, 252);
+}
+
+/*          Body             */
+
+.img-body {
+    width: 80%;
+    box-shadow: 2px 2px 8px black;
+    border-radius: 5px;
+}
+
+.top-text {
+    background: -webkit-linear-gradient(rgb(216, 79, 250), rgb(229, 140, 252));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+}
