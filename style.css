@@ -10,6 +10,13 @@ body ,html {
     background-color: gray;
 }
 
+.icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
 /*          Box          */
 
 .container {
@@ -41,6 +48,7 @@ body ,html {
     display: block;
     box-shadow: 2px 2px 8px black;
     border-radius: 10px;
+    transition: box-shadow 0.5s;
 }
 
 .text-menu {
@@ -54,7 +62,7 @@ body ,html {
 }
 
 .a-img {
-    width: 80%;
+    width: 100%;
 }
 
 .btn-outline-info {
@@ -71,7 +79,7 @@ body ,html {
 /*          Body             */
 
 .img-body {
-    width: 85%;
+    width: 100%;
     box-shadow: 2px 2px 8px black;
     border-radius: 5px;
     margin: auto;
@@ -91,6 +99,84 @@ body ,html {
     display: block;
     margin: auto;
     box-shadow: 2px 2px 8px black;
+    transition: box-shadow 0.5s;
 }
 
-/*          Gallert          */
+/*          BF          */
+
+#BF {
+    background-color: rgb(71, 71, 71);
+    position: relative;
+}
+
+.a-li {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.BT {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+/*          Footer           */
+
+footer {
+    background-color: rgb(229, 140, 252);
+    padding: 10px;
+}
+
+.text-footer {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+}
+
+/*             scrollbar              */
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(229, 140, 252);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgb(216, 79, 250);
+}
+
+/*          Hover            */
+
+img:hover {
+    transform: scale(1.03,1.03);
+    box-shadow: 0px 0px 20px rgb(216, 79, 250);
+}
+
+img {
+    transition: transform 0.5s, box-shadow 0.5s;
+}
+
+.card:hover {
+    box-shadow: 0px 5px 8px gray;
+}
+
+
+.card {
+    transition: box-shadow 0.5s;
+}
+
+.top-menu:hover {
+    box-shadow: 0px 0px 15px rgb(216, 79, 250);
+}
+
+.video:hover {
+    box-shadow: 0px 0px 15px rgb(216, 79, 250);
+}
