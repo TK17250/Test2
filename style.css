@@ -11,8 +11,8 @@ body ,html {
 }
 
 .icon {
-    width: 32px;
-    height: 32px;
+    width: 40px;
+    height: 40px;
     border-radius: 100%;
     border: 1px solid white;
 }
@@ -69,7 +69,9 @@ body ,html {
 
 .text-menu {
     text-decoration: none;
-    color: black;
+    background: -webkit-linear-gradient(rgb(204, 0, 255), rgb(229, 140, 252));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 }
 
 .img-menu {
@@ -106,6 +108,7 @@ body ,html {
     background: -webkit-linear-gradient(rgb(216, 79, 250), rgb(229, 140, 252));
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
+   font-weight: bold;
 }
 
 /*          Video            */
